@@ -85,7 +85,7 @@ int main()
             cout << "Enter task description: ";
             string desc;
             cin.ignore();
-            getline(std::cin, desc);
+            getline(cin, desc);
             todoList.addTask(desc);
         }
         else if (choice == 2)
@@ -112,7 +112,7 @@ int main()
         }
         else
         {
-            cout << "Invalid choice. Please select a valid option." << std::endl;
+            cout << "Invalid choice. Please select a valid option." << endl;
         }
     }
 
